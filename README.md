@@ -11,3 +11,12 @@
 ### Description
 
 Front-end widget for showing tooltips. Built with vanilla JavaScript, my favorite flavor!
+
+### Usage
+
+
+
+```js
+import { initTooltips } from "./tooltips.js";
+initTooltips();
+```
