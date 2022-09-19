@@ -1,2 +1,2 @@
-import { initTooltips } from "../../tooltips.js";
-initTooltips();
+import { tooltips } from "../../tooltips.js";
+tooltips();

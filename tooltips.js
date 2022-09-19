@@ -1,6 +1,6 @@
 var tooltip;
 
-function initTooltips(root = document){
+function tooltips(root = document){
 	root.querySelectorAll("[data-tooltip]").forEach(setupTooltip);
 }
 
@@ -38,4 +38,4 @@ function tooltipOff(e){
 	document.body.removeChild(tooltip);
 }
 
-export { initTooltips };
+export { tooltips };

@@ -1,22 +1,24 @@
 # Tooltips
 
-## Ian Marshall
-
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-### Live Site
-
-> [https://ianjstutor.github.io/tooltips/](https://ianjstutor.github.io/tooltips/)
-
-### Description
+## Description
 
 Front-end widget for showing tooltips. Built with vanilla JavaScript, my favorite flavor!
 
-### Usage
+## Author
+
+> [Ian Marshall](https://ianjstutor.github.io/ian-marshall/)
+
+## Live Site
+
+> [https://ianjstutor.github.io/tooltips/](https://ianjstutor.github.io/tooltips/)
+
+## Usage
 
 Include both <code>tooltips.css</code> and <code>tooltips.js</code> in your project. Link the CSS to your HTML document, import the JS into your main JavaScript file and call <code>initTooltips()</code>. In your HTML, add the <code>data-tooltip</code> attribute to any element that needs a tooltip.
 
-#### HTML
+### HTML
 
 ```html
 <head>
@@ -28,26 +30,26 @@ Include both <code>tooltips.css</code> and <code>tooltips.js</code> in your proj
 </body>
 ```
 
-#### JavaScript
+### JavaScript
 
 ```js
 //main.js
-import { initTooltips } from "./tooltips.js";
-initTooltips();
+import { tooltips } from "./tooltips.js";
+tooltips();
 ```
 
-### Documentation
+## Documentation
 
-#### Module Export
+### Module Export
 
 ```js
 export { initTooltips };
 ```
 
-#### Public Method
+### Public Method
 
 ```js
-function initTooltips(root = document) {}
+function tooltips(root = document) {}
 ```
 
 The <code>root</code> is an HTML element that defines the scope within which to look for elements containing the <code>data-tooltip</code> attribute. <code>root</code> defaults to <code>document</code>, meaning the module will look throughout the entire HTML document for tooltips.
