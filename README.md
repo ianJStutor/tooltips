@@ -16,14 +16,17 @@ Front-end widget for showing tooltips. Built with vanilla JavaScript, my favorit
 
 ## Usage
 
-Include both <code>tooltips.css</code> and <code>tooltips.js</code> in your project. Link the CSS to your HTML document, import the JS into your main JavaScript file and call <code>initTooltips()</code>. In your HTML, add the <code>data-tooltip</code> attribute to any element that needs a tooltip.
+1. Include both <code>tooltips.css</code> and <code>tooltips.js</code> in your project.
+2. Link the CSS to your HTML document.
+3. Import the JS module into your main JavaScript file and call <code>initTooltips()</code>.
+4. In your HTML, add the <code>data-tooltip</code> attribute to any element that needs a tooltip.
 
 ### HTML
 
 ```html
 <head>
     <link rel="stylesheet" href="tooltips.css" />
-    <script defer type="module" src="main.js"></script>
+    <script type="module" src="main.js"></script>
 </head>
 <body>
     <img src="lucy.png" alt="My dog Lucy" data-tooltip="My dog Lucy" />
