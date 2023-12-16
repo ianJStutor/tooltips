@@ -4,7 +4,7 @@
 
 ## Description
 
-Front-end widget for showing tooltips. Built with vanilla JavaScript, my favorite flavor!
+Front-end widget for showing tooltips. Detects mouse or pointer movement--not touch events--so only works on desktop devices. Built with vanilla JavaScript, my favorite flavor!
 
 ## Author
 
